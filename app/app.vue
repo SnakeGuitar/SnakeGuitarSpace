@@ -4,8 +4,10 @@
       <h1>SnakeGuitar Space</h1>
     </header>
     
-    <NuxtPage />
-    
+    <main>
+      <NuxtPage />
+    </main>
+
     <footer>
       <p>@ 2026 SnakeGuitar. All rights reserved.</p>
     </footer>
