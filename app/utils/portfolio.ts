@@ -3,7 +3,7 @@ export const personalInfo = {
     lastName: "Ortiz García",
     handle: "SnakeGuitar",
     title: "Software Engineering Student & Backend Developer | System Architecture & Quality Assurance",
-    school: "Veracruz University (Xalapa)",
+    school: "Veracruz University",
     location: "Mexico",
     description: "I am a software engineering student specializing in the .NET ecosystem, system architecture, and cloud infrastructure. I design and develop highly scalable applications, strictly adhering to software quality models (ISO 25010) to ensure maintainability, performance, and security. Experienced in agile methodologies, polyglot persistence, and secure development lifecycles.",
     // image: "/images/profile.jpg",
@@ -22,7 +22,7 @@ export const techStack = [
     { category: "Methodologies & Quality", items: ["Agile/Scrum", "ISO 25010 (Software Quality)", "Unit Testing", "Security Best Practices", "TDD"] },
     { category: "Dev Tools", items: ["Visual Studio", "VS Code", "JetBrains IDEs", "NetBeans", "Postman", "Selenium", "SSMS"] },
     { category: "Networking & Real-Time Communication", items: ["WebSockets (SignalR/Socket.io)", "WebRTC", "TCP Protocol", "gRPC"] },
-    { category: "Currently Exploring", items: ["Spring Boot", "FastAPI", "Go", "Cloud-Native Patterns"] },
+    { category: "Currently Exploring", items: ["Spring Boot", "Flask", "FastAPI", "DJango", "Svelte", "PHP", "Laravel", "WordPress"] },
 ];
 
 export const projects = [
