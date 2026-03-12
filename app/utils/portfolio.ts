@@ -37,7 +37,7 @@ export const projects = [
         name: "Memory Game",
         description: "A full-stack, distributed memory game featuring a real-time multiplayer architecture, global chat system, and concurrent state management.",
         techStack: [".NET Framework", "WPF", "WCF", "EF 4.7.2", "SQL Server"],
-        link: "https://github.com/SnakeGuitar/Project1"
+        link: "https://github.com/SnakeGuitar/MemoryGame"
     },
     {
         name: "Professional Practices Management System",
@@ -65,42 +65,50 @@ import nunImg from '~/assets/drawings/nun.jpg'
 export const drawings = [
     {
         name: "Diana",
-        description: "Traditional · 2025",
+        description: "Traditional",
+        year: "2025",
         image: dianaImg
     },
     {
         name: "Layla",
-        description: "Digital · 2025",
+        description: "Digital",
+        year: "2025",
         image: laylaImg
     },
     {
         name: "Akari",
-        description: "Digital · 2025",
+        description: "Digital",
+        year: "2025",
         image: akariImg
     },
     {
         name: "Emily",
-        description: "Digital · 2025",
+        description: "Digital",
+        year: "2025",
         image: emilyImg
     },
     {
         name: "Lin",
-        description: "Traditional · 2024",
+        description: "Traditional",
+        year: "2023",
         image: linImg
     },
     {
         name: "Joaquín",
-        description: "Traditional · 2024",
+        description: "Traditional",
+        year: "2024",
         image: joaquinImg
     },
     {
         name: "Katya",
-        description: "Traditional · 2025",
+        description: "Traditional",
+        year: "2025",
         image: katyaImg
     },
     {
         name: "Nun",
-        description: "Traditional · 2024",
+        description: "Traditional",
+        year: "2022",
         image: nunImg
     }
 ];
