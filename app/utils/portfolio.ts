@@ -21,8 +21,8 @@ export const techStack = [
     { category: "Infrastructure & DevOps", items: ["Docker", "Kubernetes", "Azure", "AWS", "CI/CD pipelines", "Git", "AI Agent Orchestration"] },
     { category: "Methodologies & Quality", items: ["Agile/Scrum", "ISO 25010 (Software Quality)", "Unit Testing", "Security Best Practices", "TDD"] },
     { category: "Dev Tools", items: ["Visual Studio", "VS Code", "JetBrains IDEs", "NetBeans", "Postman", "Selenium", "SSMS"] },
-    { category: "Networking & Real-Time Communication", items: ["WebSockets (SignalR/Socket.io)", "WebRTC", "TCP Protocol", "gRPC"] },
-    { category: "Currently Exploring", items: ["Spring Boot", "Flask", "FastAPI", "DJango", "Svelte", "PHP", "Laravel", "WordPress"] },
+    { category: "Networking & Real-Time Communication", items: ["WebSockets (SignalR/Socket.io)", "TCP Protocol"] },
+    { category: "Currently Exploring", items: ["Spring Boot", "Flask", "FastAPI", "DJango", "Svelte", "PHP", "Laravel", "WordPress", "WebRTC", "gRPC"] },
 ];
 
 export const projects = [
