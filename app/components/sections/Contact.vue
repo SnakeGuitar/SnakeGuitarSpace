@@ -39,7 +39,8 @@
           </div>
           <div class="form-group">
             <label>Message</label>
-            <textarea name="message" rows="5" placeholder="Tell me about your project..." v-model="form.message" required></textarea>
+            <textarea name="message" rows="5" placeholder="Tell me about your project..." v-model="form.message"
+              required></textarea>
           </div>
           <UiButton as="button" variant="send" type="submit" :disabled="isSending">
             {{ isSending ? 'Sending...' : 'Send Message' }}
@@ -53,7 +54,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { social } from '~/utils/portfolio'
-import { useSendMail } from '~/composables/sendMail'
+import { useSendMail } from '~/composables/send-mail'
 
 const socialLinks = social;
 const { sendEmail, isSending } = useSendMail();
