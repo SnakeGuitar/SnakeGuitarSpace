@@ -10,8 +10,8 @@
             patience, aesthetic judgment, and the will to iterate until arriving at something that feels right.
           </p>
           <p>
-            When I am not programming, I work with traditional painting: oil, acrylic, and mixed media
-            that allow me to explore texture and color in ways that code still cannot fully imitate.
+            When I am not programming, I enjoy drawing and building worlds that allow me to explore realms that code
+            still cannot fully imitate.
           </p>
         </div>
 
