@@ -465,10 +465,20 @@ section {
 }
 
 .art-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 240px 240px;
-    gap: 1.25rem;
+    column-count: 3;
+    column-gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+    .art-grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .art-grid {
+        column-count: 1;
+    }
 }
 
 .art-piece {
@@ -477,51 +487,42 @@ section {
     position: relative;
     cursor: pointer;
     box-shadow: 5px 5px 14px var(--shadow-dark), -5px -5px 14px var(--shadow-light);
-}
-
-.art-piece:first-child {
-    grid-row: span 2;
-}
-
-.art-placeholder {
-    width: 100%;
-    height: 100%;
+    margin-bottom: 1.5rem;
+    break-inside: avoid;
     display: flex;
-    align-items: flex-end;
-    padding: 1.25rem;
-    position: relative;
 }
 
-.art-p1 {
-    background: linear-gradient(135deg, #c4b5c8 0%, #b8c4cc 50%, #ccc0b5 100%);
-}
-
-.art-p2 {
-    background: linear-gradient(135deg, #c8bdb5 0%, #d4c2ae 100%);
-}
-
-.art-p3 {
-    background: linear-gradient(135deg, #b5c4c0 0%, #bdc8c4 100%);
-}
-
-.art-p4 {
-    background: linear-gradient(135deg, #c8c0d0 0%, #b8c8cc 100%);
-}
-
-.art-p5 {
-    background: linear-gradient(135deg, #ccbbb5 0%, #c4b8c8 100%);
+.art-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background: var(--surface);
+    z-index: 0;
+    display: block;
 }
 
 .art-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(42, 36, 32, 0.55), transparent);
+    background: linear-gradient(to top, rgba(42, 36, 32, 0.75), transparent 70%);
     opacity: 0;
     transition: opacity 0.3s;
 }
 
 .art-piece:hover .art-overlay {
     opacity: 1;
+}
+
+.art-watermark {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.25rem;
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.4);
+    z-index: 2;
+    pointer-events: none;
+    text-transform: uppercase;
 }
 
 .art-meta {

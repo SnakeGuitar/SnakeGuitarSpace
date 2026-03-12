@@ -53,12 +53,56 @@ export const projects = [
     },
 ];
 
+import dianaImg from '~/assets/drawings/diana.jpg'
+import joaquinImg from '~/assets/drawings/joaquin.jpg'
+import katyaImg from '~/assets/drawings/katya.jpg'
+import laylaImg from '~/assets/drawings/Layla.png'
+import linImg from '~/assets/drawings/lin.png'
+import akariImg from '~/assets/drawings/akari.png'
+import emilyImg from '~/assets/drawings/emily.png'
+import nunImg from '~/assets/drawings/nun.jpg'
+
 export const drawings = [
     {
-        name: "Joaquín as a magical girl",
-        description: "A creative character design exploring alternative tropes and expressive digital illustration.",
-        image: "/images/joaquin-magical.jpg"
+        name: "Diana",
+        description: "Traditional · 2025",
+        image: dianaImg
     },
+    {
+        name: "Layla",
+        description: "Digital · 2025",
+        image: laylaImg
+    },
+    {
+        name: "Akari",
+        description: "Digital · 2025",
+        image: akariImg
+    },
+    {
+        name: "Emily",
+        description: "Digital · 2025",
+        image: emilyImg
+    },
+    {
+        name: "Lin",
+        description: "Traditional · 2024",
+        image: linImg
+    },
+    {
+        name: "Joaquín",
+        description: "Traditional · 2024",
+        image: joaquinImg
+    },
+    {
+        name: "Katya",
+        description: "Traditional · 2025",
+        image: katyaImg
+    },
+    {
+        name: "Nun",
+        description: "Traditional · 2024",
+        image: nunImg
+    }
 ];
 
 export const writings = [
