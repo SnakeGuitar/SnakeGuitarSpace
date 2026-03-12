@@ -1,7 +1,22 @@
 <template>
+  <div>
+    <UiNavBar />
+    
     <main>
-        <h2>Welcome to SnakeGuitar Space!</h2>
-        <p>This is where you can know more about me.</p>
-        <NuxtLink to="/about">Go to About Page</NuxtLink>
+      <SectionsHero />
+      <SectionsAbout />
+      <SectionsStack />
+      <SectionsProjects />
+      
+      <UiDivider text="where the code ends, the brush begins" />
+      
+      <SectionsArt />
+      <SectionsContact />
     </main>
+
+    <UiFooter />
+  </div>
 </template>
+
+<script setup lang="ts">
+</script>
