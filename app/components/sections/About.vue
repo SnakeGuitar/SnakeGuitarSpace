@@ -17,16 +17,16 @@
 
         <div class="about-stats">
           <div class="stat-card neu-sm">
-            <span class="stat-num">3+</span>
-            <div class="stat-label">Years of Experience</div>
+            <span class="stat-num">6th</span>
+            <div class="stat-label">Semester Student</div>
           </div>
           <div class="stat-card neu-sm">
-            <span class="stat-num">12</span>
-            <div class="stat-label">Projects Completed</div>
+            <span class="stat-num">15+</span>
+            <div class="stat-label">Tech Projects</div>
           </div>
           <div class="stat-card neu-sm">
-            <span class="stat-num">∞</span>
-            <div class="stat-label">Cups of Coffee</div>
+            <span class="stat-num">300+</span>
+            <div class="stat-label">Git Commits</div>
           </div>
           <div class="stat-card neu-sm">
             <span class="stat-num">20+</span>
