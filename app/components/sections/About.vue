@@ -29,8 +29,8 @@
             <div class="stat-label">Git Commits</div>
           </div>
           <div class="stat-card neu-sm">
-            <span class="stat-num">20+</span>
-            <div class="stat-label">Art Pieces</div>
+            <span class="stat-num">+5</span>
+            <div class="stat-label">Years In Art</div>
           </div>
         </div>
       </div>
