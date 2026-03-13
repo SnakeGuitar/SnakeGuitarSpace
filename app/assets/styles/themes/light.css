@@ -1,0 +1,41 @@
+[data-theme="light"],
+:root {
+  /* Base Colors */
+  --bg: #e8e4df;
+  --bg2: #ede9e3;
+  --surface: #eae6e1;
+  
+  /* Shadows (Neumorphism) */
+  --shadow-light: #ffffff;
+  --shadow-dark: #c8c2bb;
+  
+  /* Typography */
+  --text: #2a2420;
+  --text-muted: #7a6f68;
+  --code-green: #5a7a5e;
+  
+  /* Accents & Gradients */
+  --accent: #7c6f5b;
+  --accent2: #a08878;
+  --grad1: #d4c5b8;
+  --grad2: #c2b5c8;
+  --grad3: #b8c4cc;
+
+  /* Semantic UI Colors */
+  --nav-bg: rgba(232, 228, 223, 0.7);
+  --nav-border: rgba(200, 194, 187, 0.4);
+  
+  --modal-overlay: rgba(0, 0, 0, 0.75);
+  --modal-shadow: rgba(0, 0, 0, 0.5);
+  --modal-btn-bg: rgba(0, 0, 0, 0.5);
+  --modal-btn-active: rgba(99, 102, 241, 0.4);
+  
+  --border-subtle: rgba(160, 136, 120, 0.2);
+  
+  /* Art Section Overlays */
+  --art-overlay-bg: rgba(42, 36, 32, 0.75);
+  --art-text-watermark: rgba(255, 255, 255, 0.4);
+  --art-text-hidden: rgba(255, 255, 255, 0.0);
+  --art-text-visible: rgba(255, 255, 255, 0.9);
+  --art-text-medium: rgba(255, 255, 255, 0.65);
+}

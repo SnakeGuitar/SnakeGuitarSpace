@@ -1,0 +1,41 @@
+[data-theme="dark"] {
+  /* Base Colors */
+  --bg: #161413;
+  --bg2: #1c1a18;
+  --surface: #1e1b19;
+  
+  /* Shadows (Neumorphism) */
+  /* Dark mode neumorphism requires darker shadows and very subtle lights */
+  --shadow-light: #2b2724;
+  --shadow-dark: #110f0e;
+  
+  /* Typography */
+  --text: #e8e4df;
+  --text-muted: #a49992;
+  --code-green: #7ca881;
+  
+  /* Accents & Gradients */
+  --accent: #b3a491;
+  --accent2: #c4b0a2;
+  --grad1: #5e544b;
+  --grad2: #524757;
+  --grad3: #4b545a;
+
+  /* Semantic UI Colors */
+  --nav-bg: rgba(22, 20, 19, 0.75);
+  --nav-border: rgba(60, 54, 50, 0.4);
+  
+  --modal-overlay: rgba(0, 0, 0, 0.85);
+  --modal-shadow: rgba(0, 0, 0, 0.8);
+  --modal-btn-bg: rgba(255, 255, 255, 0.1);
+  --modal-btn-active: rgba(179, 164, 145, 0.4);
+  
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  
+  /* Art Section Overlays */
+  --art-overlay-bg: rgba(0, 0, 0, 0.85);
+  --art-text-watermark: rgba(255, 255, 255, 0.3);
+  --art-text-hidden: rgba(255, 255, 255, 0.0);
+  --art-text-visible: rgba(255, 255, 255, 0.95);
+  --art-text-medium: rgba(255, 255, 255, 0.75);
+}

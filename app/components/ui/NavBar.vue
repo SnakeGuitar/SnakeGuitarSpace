@@ -1,28 +1,33 @@
 <template>
   <nav>
     <a href="#hero" class="nav-logo">Snake<span>Guitar</span></a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#stack">Stack</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#art">Art</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="nav-actions">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#art">Art</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <UiThemeSwitcher />
+    </div>
   </nav>
 </template>
 
 <style scoped>
 nav {
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
   padding: 1.25rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(232, 228, 223, 0.7);
+  background: var(--nav-bg);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(200,194,187,0.4);
+  border-bottom: 1px solid var(--nav-border);
 }
 
 .nav-logo {
@@ -37,6 +42,12 @@ nav {
 .nav-logo span {
   color: var(--accent2);
   font-style: italic;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
 }
 
 .nav-links {
@@ -54,10 +65,22 @@ nav {
   transition: color 0.3s;
 }
 
-.nav-links a:hover { color: var(--text); }
+.nav-links a:hover {
+  color: var(--text);
+}
 
 @media (max-width: 768px) {
-  nav { padding: 1rem 1.5rem; }
-  .nav-links { gap: 1.5rem; }
+  nav {
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-actions {
+    gap: 1.5rem;
+  }
+
+  .nav-links {
+    display: none;
+    /* Hide links on mobile for now, or adapt as needed */
+  }
 }
 </style>

@@ -357,7 +357,7 @@ section {
     color: var(--accent);
     margin-bottom: 1.5rem;
     padding-bottom: 0.75rem;
-    border-bottom: 1px solid rgba(160, 136, 120, 0.2);
+    border-bottom: 1px solid var(--border-subtle);
 }
 
 .tech-list {
@@ -504,7 +504,7 @@ section {
 .art-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(42, 36, 32, 0.75), transparent 70%);
+    background: linear-gradient(to top, var(--art-overlay-bg), transparent 70%);
     opacity: 0;
     transition: opacity 0.3s;
 }
@@ -519,7 +519,7 @@ section {
     right: 1.25rem;
     font-size: 0.55rem;
     letter-spacing: 0.1em;
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--art-text-watermark);
     z-index: 2;
     pointer-events: none;
     text-transform: uppercase;
@@ -534,24 +534,24 @@ section {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1rem;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.0);
+    color: var(--art-text-hidden);
     transition: color 0.3s;
 }
 
 .art-piece:hover .art-meta-title {
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--art-text-visible);
 }
 
 .art-medium {
     font-size: 0.6rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.0);
+    color: var(--art-text-hidden);
     transition: color 0.3s;
 }
 
 .art-piece:hover .art-medium {
-    color: rgba(255, 255, 255, 0.65);
+    color: var(--art-text-medium);
 }
 
 .art-piece::before {

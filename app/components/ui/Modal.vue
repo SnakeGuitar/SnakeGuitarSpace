@@ -164,7 +164,7 @@ const prevImage = () => {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.75);
+    background: var(--modal-overlay);
     backdrop-filter: blur(4px);
     display: flex;
     align-items: center;
@@ -179,7 +179,7 @@ const prevImage = () => {
     border-radius: 12px;
     position: relative;
     border: 1px solid var(--border);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 30px var(--modal-shadow);
 }
 
 .modal-close {
@@ -253,7 +253,7 @@ const prevImage = () => {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--modal-btn-bg);
     color: white;
     border: none;
     border-radius: 50%;
@@ -305,7 +305,7 @@ const prevImage = () => {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 4px 12px var(--modal-btn-active);
 }
 
 /* Custom scrollbar for modal content */
