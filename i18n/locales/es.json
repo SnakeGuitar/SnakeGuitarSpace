@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "stack": "Stack",
+    "projects": "Proyectos",
+    "art": "Arte",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Estudiante de Ingeniería de Software & Desarrollador Backend | Arquitectura de Sistemas & Aseguramiento de Calidad",
+    "description": "Soy un estudiante de ingeniería de software especializado en el ecosistema .NET, arquitectura de sistemas e infraestructura en la nube. Diseño y desarrollo aplicaciones altamente escalables, adhiriéndome estrictamente a modelos de calidad de software (ISO 25010) para asegurar su mantenibilidad, rendimiento y seguridad. Con experiencia en metodologías ágiles, persistencia políglota y ciclos de vida de desarrollo seguros.",
+    "scroll": "Deslizar",
+    "btn_work": "Ver Proyectos",
+    "btn_contact": "Ver Arte"
+  },
+  "about": {
+    "title_label": "Acerca de mí",
+    "title_start": "Un poco de",
+    "title_emphasis": "mi historia",
+    "p1": "Mi viaje por la tecnología y el arte no son mundos separados para mí — ambos requieren paciencia, juicio estético y la voluntad de seguir iterando hasta llegar a algo que se sienta correcto.",
+    "p2": "Cuando no estoy programando, disfruto dibujar y construir mundos que me permiten explorar reinos que el código aún no puede imitar completamente.",
+    "stats": {
+      "s1_label": "Semestre",
+      "s2_label": "Proyectos",
+      "s3_label": "Commits en Git",
+      "s4_label": "Años en el Arte"
+    }
+  },
+  "stack": {
+    "title_label": "Tecnología",
+    "title_start": "Mi",
+    "title_emphasis": "stack tecnológico",
+    "categories": {
+      "backend": "Backend y Sistemas Distribuidos",
+      "frontend": "Frontend",
+      "database": "Bases de Datos y Almacenamiento",
+      "infrastructure": "Infraestructura & DevOps",
+      "methodologies": "Metodologías y Calidad",
+      "tools": "Herramientas de Desarrollo",
+      "networking": "Redes y Comunicación en Tiempo Real",
+      "exploring": "Actualmente Explorando"
+    }
+  },
+  "projects": {
+    "title_label": "Trabajo",
+    "title_start": "Proyectos",
+    "title_emphasis": "destacados",
+    "view_btn": "Ver",
+    "tech_stack": "Tecnologías",
+    "github_btn": "Ver en GitHub",
+    "items": {
+      "layla": {
+        "name": "Layla",
+        "desc": "Una plataforma de red social integral dedicada a escritores. Diseñada con arquitectura de persistencia políglota para manejar relaciones complejas y consultas de alto rendimiento, integrando capacidades avanzadas de búsqueda y accesibilidad multiplataforma."
+      },
+      "memory_game": {
+        "name": "Juego de Memoria",
+        "desc": "Un juego de memoria distribuido y full-stack con una arquitectura multijugador en tiempo real, sistema de chat global y gestión de estados concurrentes."
+      },
+      "ppms": {
+        "name": "Sistema Automático de Prácticas Profesionales",
+        "desc": "Una aplicación de escritorio a nivel empresarial diseñada para agilizar y gestionar las prácticas profesionales universitarias, con un enfoque en la validación robusta de datos y una experiencia de usuario intuitiva."
+      },
+      "pinterest": {
+        "name": "Descargador de Tableros de Pinterest",
+        "desc": "Una herramienta automatizada de web scraping construida para extraer y descargar eficientemente conjuntos de datos de imágenes de Pinterest, utilizando automatización de navegadores headless."
+      }
+    }
+  },
+  "art": {
+    "title_label": "Arte",
+    "title_start": "Dibujos",
+    "title_emphasis": "tradicionales",
+    "intro": "Una práctica paralela al desarrollo, pero igualmente seria. Fabrico mis obras con paciencia y amor. A veces también dibujo en digital :3",
+    "hover_medium": "Tradicional",
+    "medium": {
+        "traditional": "Tradicional",
+        "digital": "Digital"
+    }
+  },
+  "contact": {
+    "title_label": "Contacto",
+    "title_start": "Hablemos de",
+    "title_emphasis": "tu proyecto",
+    "desc": "Estoy disponible para proyectos freelance, colaboraciones y oportunidades a tiempo completo. Si tienes algo interesante en mente, envíame un mensaje.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje"
+    }
+  }
+}

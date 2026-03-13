@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "About",
+    "stack": "Stack",
+    "projects": "Projects",
+    "art": "Art",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Software Engineering Student & Backend Developer | System Architecture & Quality Assurance",
+    "description": "I am a software engineering student specializing in the .NET ecosystem, system architecture, and cloud infrastructure. I design and develop highly scalable applications, strictly adhering to software quality models (ISO 25010) to ensure maintainability, performance, and security. Experienced in agile methodologies, polyglot persistence, and secure development lifecycles.",
+    "scroll": "Scroll",
+    "btn_work": "View Projects",
+    "btn_contact": "View Art"
+  },
+  "about": {
+    "title_label": "About me",
+    "title_start": "A little of",
+    "title_emphasis": "my story",
+    "p1": "My journey in technology and art are not separate worlds for me — both require patience, aesthetic judgment, and the will to iterate until arriving at something that feels right.",
+    "p2": "When I am not programming, I enjoy drawing and building worlds that allow me to explore realms that code still cannot fully imitate.",
+    "stats": {
+      "s1_label": "Semester Student",
+      "s2_label": "Tech Projects",
+      "s3_label": "Git Commits",
+      "s4_label": "Years In Art"
+    }
+  },
+  "stack": {
+    "title_label": "Technology",
+    "title_start": "My",
+    "title_emphasis": "tech stack",
+    "categories": {
+        "backend": "Backend & Distributed Systems",
+        "frontend": "Frontend",
+        "database": "Database & Storage",
+        "infrastructure": "Infrastructure & DevOps",
+        "methodologies": "Methodologies & Quality",
+        "tools": "Dev Tools",
+        "networking": "Networking & Real-Time Communication",
+        "exploring": "Currently Exploring"
+    }
+  },
+  "projects": {
+    "title_label": "Work",
+    "title_start": "Featured",
+    "title_emphasis": "projects",
+    "view_btn": "View",
+    "tech_stack": "Tech Stack",
+    "github_btn": "View GitHub",
+    "items": {
+        "layla": {
+            "name": "Layla",
+            "desc": "A comprehensive social network platform dedicated to writers. Architected with polyglot persistence to handle complex relationships and high-performance querying, integrating advanced search capabilities and cross-platform accessibility."
+        },
+        "memory_game": {
+            "name": "Memory Game",
+            "desc": "A full-stack, distributed memory game featuring a real-time multiplayer architecture, global chat system, and concurrent state management."
+        },
+        "ppms": {
+            "name": "Professional Practices Management System",
+            "desc": "An enterprise-level desktop application designed to streamline and manage university professional practices, focusing on robust data validation and intuitive user experience."
+        },
+        "pinterest": {
+            "name": "Pinterest Board Downloader",
+            "desc": "An automated web scraping tool built to efficiently extract and download image datasets from Pinterest, utilizing headless browser automation."
+        }
+    }
+  },
+  "art": {
+    "title_label": "Art",
+    "title_start": "Traditional",
+    "title_emphasis": "drawings",
+    "intro": "A parallel practice to development, but equally serious. I craft my works with patience and love. Sometimes I draw in digital too :3",
+    "hover_medium": "Traditional",
+    "medium": {
+        "traditional": "Traditional",
+        "digital": "Digital"
+    }
+  },
+  "contact": {
+    "title_label": "Contact",
+    "title_start": "Let's talk about",
+    "title_emphasis": "your project",
+    "desc": "I am available for freelance projects, collaborations, and full-time opportunities. If you have something interesting in mind, drop me a message.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  }
+}

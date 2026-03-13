@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "关于",
+    "stack": "技术栈",
+    "projects": "项目",
+    "art": "艺术",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "软件工程学生 & 后端开发者 | 系统架构 & 质量保证",
+    "description": "我是一名专注于.NET生态、系统架构和云基础设施的软件工程专业学生。我设计并开发高扩展性应用程序，严格遵循软件质量模型 (ISO 25010) 以确保可维护性、性能和安全性。并具备敏捷方法、多语言持久化聚合及安全开发生命周期的经验。",
+    "scroll": "向下滚动",
+    "btn_work": "查看项目",
+    "btn_contact": "查看艺术"
+  },
+  "about": {
+    "title_label": "关于我",
+    "title_start": "关于",
+    "title_emphasis": "我的故事",
+    "p1": "寻找解决技术的途径和绘画艺术对我来说并不是完全分离的世界——它们都需要耐心、审美判断力和不断迭代的意愿，直到获得确切的感受。",
+    "p2": "当我不编程时，我喜欢画画并创造能让我脱离代码所能及的世界。",
+    "stats": {
+      "s1_label": "学期学生",
+      "s2_label": "技术项目",
+      "s3_label": "Git 提交",
+      "s4_label": "绘画经验年数"
+    }
+  },
+  "stack": {
+    "title_label": "技术",
+    "title_start": "我的",
+    "title_emphasis": "技术栈",
+    "categories": {
+      "backend": "后端与分布式系统",
+      "frontend": "前端",
+      "database": "数据库与存储",
+      "infrastructure": "基础设施与DevOps",
+      "methodologies": "方法论与质量保证",
+      "tools": "开发工具",
+      "networking": "网络与即时通讯",
+      "exploring": "正在探索"
+    }
+  },
+  "projects": {
+    "title_label": "工作",
+    "title_start": "精选",
+    "title_emphasis": "项目",
+    "view_btn": "查看",
+    "tech_stack": "技术栈",
+    "github_btn": "在GitHub上查看",
+    "items": {
+      "layla": {
+        "name": "Layla",
+        "desc": "一个专为作家打造的综合社交网络平台。采用多语言持久化架构处理复杂关系及高性能查询，并整合了高级搜索功能与跨平台的访问能力。"
+      },
+      "memory_game": {
+        "name": "Memory Game",
+        "desc": "基于实时多人架构、全局聊天系统及并发状态管理开发的全栈分布式记忆匹配游戏。"
+      },
+      "ppms": {
+        "name": "专业实践管理系统",
+        "desc": "一款为简化和管理大学专业实践流程而设计的企业桌面应用程序，专注于严谨的数据验证和直观的用户体验。"
+      },
+      "pinterest": {
+        "name": "Pinterest 图片墙下载器",
+        "desc": "一个用于高效提取与下载Pinterest图片数据集的自动化网络爬虫工具，采用无头浏览器自动化技术开发。"
+      }
+    }
+  },
+  "art": {
+    "title_label": "艺术",
+    "title_start": "传统",
+    "title_emphasis": "绘画",
+    "intro": "这是一项与软件开发并行的实践，但也同样严谨。我用耐心和爱心打造这些作品。有时我也进行数字绘画 :3",
+    "hover_medium": "传统",
+    "medium": {
+        "traditional": "传统绘画",
+        "digital": "数字绘画"
+    }
+  },
+  "contact": {
+    "title_label": "联系",
+    "title_start": "我们来谈谈",
+    "title_emphasis": "您的项目",
+    "desc": "我目前承接自由职业项目、技术合作以及全职工作机会。如果您有任何有趣的想法，欢迎随时留言。",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮箱",
+      "message": "信息",
+      "send": "发送信息"
+    }
+  }
+}
