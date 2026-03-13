@@ -25,6 +25,24 @@ export const techStack = [
     { category: "Currently Exploring", items: ["Spring Boot", "Flask", "FastAPI", "DJango", "Svelte", "PHP", "Laravel", "WordPress", "WebRTC", "gRPC"] },
 ];
 
+import memoryGame1 from '~/assets/project-images/memory-game/memory-game-board.png'
+import memoryGame2 from '~/assets/project-images/memory-game/memory-game-card-collection.png'
+import memoryGame3 from '~/assets/project-images/memory-game/memory-game-exception-handling.png'
+import memoryGame4 from '~/assets/project-images/memory-game/memory-game-lobby-and-chat.png'
+import memoryGame5 from '~/assets/project-images/memory-game/memory-game-main-menu.png'
+import memoryGame6 from '~/assets/project-images/memory-game/memory-game-profile.png'
+import memoryGame7 from '~/assets/project-images/memory-game/memory-game-responsiveness.png'
+
+import pp1 from '~/assets/project-images/professional-practices/profesional-practices-document-handling.png'
+import pp2 from '~/assets/project-images/professional-practices/professional-practices-form.png'
+import pp3 from '~/assets/project-images/professional-practices/professional-practices-login.png'
+import pp4 from '~/assets/project-images/professional-practices/professional-practices-professor-dashboard.png'
+import pp5 from '~/assets/project-images/professional-practices/professional-practices-table1.png'
+import pp6 from '~/assets/project-images/professional-practices/professional-practices-table2.png'
+
+import pinterest1 from '~/assets/project-images/pinterest-scrapper/pinterest-scrapper.png'
+
+
 export const projects = [
     {
         name: "Layla",
@@ -37,19 +55,39 @@ export const projects = [
         name: "Memory Game",
         description: "A full-stack, distributed memory game featuring a real-time multiplayer architecture, global chat system, and concurrent state management.",
         techStack: [".NET Framework", "WPF", "WCF", "EF 4.7.2", "SQL Server"],
-        link: "https://github.com/SnakeGuitar/MemoryGame"
+        link: "https://github.com/SnakeGuitar/MemoryGame",
+        images: [
+            { src: memoryGame1, title: "Game Board" },
+            { src: memoryGame2, title: "Card Collection" },
+            { src: memoryGame3, title: "Exception Handling" },
+            { src: memoryGame4, title: "Lobby & Chat" },
+            { src: memoryGame5, title: "Main Menu" },
+            { src: memoryGame6, title: "User Profile" },
+            { src: memoryGame7, title: "Responsive Design" }
+        ]
     },
     {
         name: "Professional Practices Management System",
         description: "An enterprise-level desktop application designed to streamline and manage university professional practices, focusing on robust data validation and intuitive user experience.",
         techStack: ["JavaFX", "CSS", "MySQL", "MVC Pattern"],
-        link: "https://github.com/SnakeGuitar/ProfessionalPractices"
+        link: "https://github.com/SnakeGuitar/ProfessionalPractices",
+        images: [
+            { src: pp1, title: "Document Handling" },
+            { src: pp2, title: "Forms" },
+            { src: pp3, title: "Login" },
+            { src: pp4, title: "Professor Dashboard" },
+            { src: pp5, title: "Data Table 1" },
+            { src: pp6, title: "Data Table 2" }
+        ]
     },
     {
         name: "Pinterest Board Downloader",
         description: "An automated web scraping tool built to efficiently extract and download image datasets from Pinterest, utilizing headless browser automation.",
         techStack: ["C#", "WPF", "Selenium"],
-        link: "https://github.com/SnakeGuitar/PinterestBoardDownloader.git"
+        link: "https://github.com/SnakeGuitar/PinterestBoardDownloader.git",
+        images: [
+            { src: pinterest1, title: "App Interface" }
+        ]
     },
 ];
 
