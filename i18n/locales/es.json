@@ -58,7 +58,7 @@
         "desc": "Un juego de memoria distribuido y full-stack con una arquitectura multijugador en tiempo real, sistema de chat global y gestión de estados concurrentes."
       },
       "ppms": {
-        "name": "Sistema Automático de Prácticas Profesionales",
+        "name": "Sistema Gestor de Prácticas Profesionales",
         "desc": "Una aplicación de escritorio a nivel empresarial diseñada para agilizar y gestionar las prácticas profesionales universitarias, con un enfoque en la validación robusta de datos y una experiencia de usuario intuitiva."
       },
       "pinterest": {
@@ -74,8 +74,8 @@
     "intro": "Una práctica paralela al desarrollo, pero igualmente seria. Fabrico mis obras con paciencia y amor. A veces también dibujo en digital :3",
     "hover_medium": "Tradicional",
     "medium": {
-        "traditional": "Tradicional",
-        "digital": "Digital"
+      "traditional": "Tradicional",
+      "digital": "Digital"
     }
   },
   "contact": {
