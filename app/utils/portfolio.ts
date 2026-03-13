@@ -2,10 +2,10 @@ export const personalInfo = {
     name: "Luis Donaldo",
     lastName: "Ortiz García",
     handle: "SnakeGuitar",
-    title: "Software Engineering Student & Backend Developer | System Architecture & Quality Assurance",
+    title: "hero.title",
     school: "Veracruz University",
     location: "Mexico",
-    description: "I am a software engineering student specializing in the .NET ecosystem, system architecture, and cloud infrastructure. I design and develop highly scalable applications, strictly adhering to software quality models (ISO 25010) to ensure maintainability, performance, and security. Experienced in agile methodologies, polyglot persistence, and secure development lifecycles.",
+    description: "hero.description",
     // image: "/images/profile.jpg",
     // TODO: Tomarse una foto profesional (buena iluminación, fondo neutro)
 };
@@ -15,14 +15,14 @@ export const social = {
 };
 
 export const techStack = [
-    { category: "Backend & Distributed Systems", items: [".NET", "ASP.NET Core", "RabbitMQ (Message Brokers)", "Node.js", "Express", "RESTful APIs", "Ubuntu Server", "Microservices Concepts", "Clean Architecture"] },
-    { category: "Frontend", items: ["HTML/CSS/JavaScript", "TypeScript", "Kotlin", "Vue.js", "SvelteKit", "Tailwind CSS", "JavaFX"] },
-    { category: "Database & Storage", items: ["SQL Server", "PostgreSQL", "pgvector", "MongoDB", "Redis", "Neo4j", "EF Core"] },
-    { category: "Infrastructure & DevOps", items: ["Docker", "Kubernetes", "Azure", "AWS", "CI/CD pipelines", "Git", "AI Agent Orchestration"] },
-    { category: "Methodologies & Quality", items: ["Agile/Scrum", "ISO 25010 (Software Quality)", "Unit Testing", "Security Best Practices", "TDD"] },
-    { category: "Dev Tools", items: ["Visual Studio", "VS Code", "JetBrains IDEs", "NetBeans", "Postman", "Selenium", "SSMS"] },
-    { category: "Networking & Real-Time Communication", items: ["WebSockets (SignalR/Socket.io)", "TCP Protocol"] },
-    { category: "Currently Exploring", items: ["Spring Boot", "Flask", "FastAPI", "DJango", "Svelte", "PHP", "Laravel", "WordPress", "WebRTC", "gRPC"] },
+    { category: "stack.categories.backend", items: [".NET", "ASP.NET Core", "RabbitMQ (Message Brokers)", "Node.js", "Express", "RESTful APIs", "Ubuntu Server", "Microservices Concepts", "Clean Architecture"] },
+    { category: "stack.categories.frontend", items: ["HTML/CSS/JavaScript", "TypeScript", "Kotlin", "Vue.js", "SvelteKit", "Tailwind CSS", "JavaFX"] },
+    { category: "stack.categories.database", items: ["SQL Server", "PostgreSQL", "pgvector", "MongoDB", "Redis", "Neo4j", "EF Core"] },
+    { category: "stack.categories.infrastructure", items: ["Docker", "Kubernetes", "Azure", "AWS", "CI/CD pipelines", "Git", "AI Agent Orchestration"] },
+    { category: "stack.categories.methodologies", items: ["Agile/Scrum", "ISO 25010 (Software Quality)", "Unit Testing", "Security Best Practices", "TDD"] },
+    { category: "stack.categories.tools", items: ["Visual Studio", "VS Code", "JetBrains IDEs", "NetBeans", "Postman", "Selenium", "SSMS"] },
+    { category: "stack.categories.networking", items: ["WebSockets (SignalR/Socket.io)", "TCP Protocol"] },
+    { category: "stack.categories.exploring", items: ["Spring Boot", "Flask", "FastAPI", "DJango", "Svelte", "PHP", "Laravel", "WordPress", "WebRTC", "gRPC"] },
 ];
 
 import memoryGame1 from '~/assets/project-images/memory-game/memory-game-board.png'
@@ -45,15 +45,15 @@ import pinterest1 from '~/assets/project-images/pinterest-scrapper/pinterest-scr
 
 export const projects = [
     {
-        name: "Layla",
-        description: "A comprehensive social network platform dedicated to writers. Architected with polyglot persistence to handle complex relationships and high-performance querying, integrating advanced search capabilities and cross-platform accessibility.",
+        name: "projects.items.layla.name",
+        description: "projects.items.layla.desc",
         layla1TechStack: ["ASP.NET Core", "SQL Server", "MongoDB", "Neo4j", "EF Core", "WPF", "Razor Pages", "Kotlin"],
         layla2TechStack: ["ASP.NET Core", "PostgreSQL + pgvector", "MongoDB", "Neo4j", "EF Core", "SvelteKit", "Tauri", "Capacitor", "Ionic"],
         link: "https://github.com/SnakeGuitar/Layla"
     },
     {
-        name: "Memory Game",
-        description: "A full-stack, distributed memory game featuring a real-time multiplayer architecture, global chat system, and concurrent state management.",
+        name: "projects.items.memory_game.name",
+        description: "projects.items.memory_game.desc",
         techStack: [".NET Framework", "WPF", "WCF", "EF 4.7.2", "SQL Server"],
         link: "https://github.com/SnakeGuitar/MemoryGame",
         images: [
@@ -67,8 +67,8 @@ export const projects = [
         ]
     },
     {
-        name: "Professional Practices Management System",
-        description: "An enterprise-level desktop application designed to streamline and manage university professional practices, focusing on robust data validation and intuitive user experience.",
+        name: "projects.items.ppms.name",
+        description: "projects.items.ppms.desc",
         techStack: ["JavaFX", "CSS", "MySQL", "MVC Pattern"],
         link: "https://github.com/SnakeGuitar/ProfessionalPractices",
         images: [
@@ -81,8 +81,8 @@ export const projects = [
         ]
     },
     {
-        name: "Pinterest Board Downloader",
-        description: "An automated web scraping tool built to efficiently extract and download image datasets from Pinterest, utilizing headless browser automation.",
+        name: "projects.items.pinterest.name",
+        description: "projects.items.pinterest.desc",
         techStack: ["C#", "WPF", "Selenium"],
         link: "https://github.com/SnakeGuitar/PinterestBoardDownloader.git",
         images: [
@@ -103,49 +103,49 @@ import nunImg from '~/assets/drawings/nun.jpg'
 export const drawings = [
     {
         name: "Diana",
-        description: "Traditional",
+        description: "art.medium.traditional",
         year: "2025",
         image: dianaImg
     },
     {
         name: "Layla",
-        description: "Digital",
+        description: "art.medium.digital",
         year: "2025",
         image: laylaImg
     },
     {
         name: "Akari",
-        description: "Digital",
+        description: "art.medium.digital",
         year: "2025",
         image: akariImg
     },
     {
         name: "Emily",
-        description: "Digital",
+        description: "art.medium.digital",
         year: "2025",
         image: emilyImg
     },
     {
         name: "Lin",
-        description: "Traditional",
+        description: "art.medium.traditional",
         year: "2023",
         image: linImg
     },
     {
         name: "Joaquín",
-        description: "Traditional",
+        description: "art.medium.traditional",
         year: "2024",
         image: joaquinImg
     },
     {
         name: "Katya",
-        description: "Traditional",
+        description: "art.medium.traditional",
         year: "2025",
         image: katyaImg
     },
     {
         name: "Nun",
-        description: "Traditional",
+        description: "art.medium.traditional",
         year: "2022",
         image: nunImg
     }

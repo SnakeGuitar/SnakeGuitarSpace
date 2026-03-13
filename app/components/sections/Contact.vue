@@ -1,13 +1,12 @@
 <template>
   <section id="contact">
     <div class="contact-inner section-inner">
-      <UiSectionTitle label="Contact" titleStart="Let's talk about" titleEmphasis="your project" />
+      <UiSectionTitle :label="$t('contact.title_label')" :titleStart="$t('contact.title_start')" :titleEmphasis="$t('contact.title_emphasis')" />
 
       <div class="contact-grid">
         <div class="contact-info">
           <p>
-            I am available for freelance projects, collaborations, and full-time opportunities.
-            If you have something interesting in mind, drop me a message.
+            {{ $t('contact.desc') }}
           </p>
 
           <div class="contact-links">
@@ -30,20 +29,20 @@
           <input type="hidden" name="access_key" value="63bc9c78-244d-4c6e-a9f7-27d421922b81">
 
           <div class="form-group">
-            <label>Name</label>
-            <input type="text" name="name" placeholder="Your name" v-model="form.name" required />
+            <label>{{ $t('contact.form.name') }}</label>
+            <input type="text" name="name" :placeholder="$t('contact.form.name')" v-model="form.name" required />
           </div>
           <div class="form-group">
-            <label>Email</label>
-            <input type="email" name="email" placeholder="Your email" v-model="form.email" required />
+            <label>{{ $t('contact.form.email') }}</label>
+            <input type="email" name="email" :placeholder="$t('contact.form.email')" v-model="form.email" required />
           </div>
           <div class="form-group">
-            <label>Message</label>
-            <textarea name="message" rows="5" placeholder="Tell me about your project..." v-model="form.message"
+            <label>{{ $t('contact.form.message') }}</label>
+            <textarea name="message" rows="5" :placeholder="$t('contact.form.message')" v-model="form.message"
               required></textarea>
           </div>
           <UiButton as="button" variant="send" type="submit" :disabled="isSending">
-            {{ isSending ? 'Sending...' : 'Send Message' }}
+            {{ isSending ? '...' : $t('contact.form.send') }}
           </UiButton>
         </form>
       </div>

@@ -1,7 +1,7 @@
 <template>
   <section>
     <div id="projects" class="section-inner">
-      <UiSectionTitle label="Work" titleStart="Featured" titleEmphasis="projects" />
+      <UiSectionTitle :label="$t('projects.title_label')" :titleStart="$t('projects.title_start')" :titleEmphasis="$t('projects.title_emphasis')" />
 
       <div class="projects-grid">
         <UiProjectCard 

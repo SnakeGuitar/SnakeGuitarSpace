@@ -5,7 +5,7 @@
     <div class="hero-bg-blob blob3"></div>
 
     <div class="hero-content">
-      <div class="hero-tag neu-sm" style="padding:0.4rem 1rem;">Developer & Artist</div>
+      <div class="hero-tag neu-sm" style="padding:0.4rem 1rem;">{{ $t(info.title) }}</div>
 
       <h1 class="hero-name">
         {{ info.name }}<br /><em>{{ info.lastName }}</em>
@@ -16,16 +16,16 @@
       </p>
 
       <p class="hero-desc">
-        {{ info.description }}
+        {{ $t(info.description) }}
       </p>
 
       <div class="hero-ctas">
-        <UiButton as="a" href="#projects">View Projects</UiButton>
-        <UiButton as="a" href="#art" variant="secondary">View Art</UiButton>
+        <UiButton as="a" href="#projects">{{ $t('hero.btn_work') }}</UiButton>
+        <UiButton as="a" href="#art" variant="secondary">{{ $t('hero.btn_contact') }}</UiButton>
       </div>
     </div>
 
-    <div class="hero-scroll">Scroll</div>
+    <div class="hero-scroll">{{ $t('hero.scroll') }}</div>
   </section>
 </template>
 

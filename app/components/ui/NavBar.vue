@@ -3,13 +3,16 @@
     <a href="#hero" class="nav-logo">Snake<span>Guitar</span></a>
     <div class="nav-actions">
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#stack">Stack</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#art">Art</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">{{ $t('nav.about') }}</a></li>
+        <li><a href="#stack">{{ $t('nav.stack') }}</a></li>
+        <li><a href="#projects">{{ $t('nav.projects') }}</a></li>
+        <li><a href="#art">{{ $t('nav.art') }}</a></li>
+        <li><a href="#contact">{{ $t('nav.contact') }}</a></li>
       </ul>
-      <UiThemeSwitcher />
+      <div class="header-controls">
+        <UiLanguageSwitcher />
+        <UiThemeSwitcher />
+      </div>
     </div>
   </nav>
 </template>
@@ -48,6 +51,11 @@ nav {
   display: flex;
   align-items: center;
   gap: 2.5rem;
+}
+
+.header-controls {
+  display: flex;
+  gap: 0.75rem;
 }
 
 .nav-links {

@@ -1,11 +1,11 @@
 <template>
   <section id="stack">
     <div class="stack-inner section-inner">
-      <UiSectionTitle label="Technology" titleStart="My" titleEmphasis="tech stack" />
+      <UiSectionTitle :label="$t('stack.title_label')" :titleStart="$t('stack.title_start')" :titleEmphasis="$t('stack.title_emphasis')" />
 
       <div class="stack-categories">
         <div v-for="(category, index) in stack" :key="index" class="stack-cat neu">
-          <div class="stack-cat-title">{{ category.category }}</div>
+          <div class="stack-cat-title">{{ $t(category.category) }}</div>
           <div class="tech-list">
             <span v-for="item in category.items" :key="item" class="tech-pill">{{ item }}</span>
           </div>

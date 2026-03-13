@@ -47,6 +47,7 @@ onMounted(() => {
   const storedTheme = localStorage.getItem('sg-theme');
   if (storedTheme) {
     currentTheme.value = storedTheme;
+    document.documentElement.setAttribute('data-theme', storedTheme);
   }
   
   document.addEventListener('click', (e) => {

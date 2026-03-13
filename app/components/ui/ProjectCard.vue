@@ -1,15 +1,15 @@
 <template>
   <div class="project-card neu">
     <div class="project-tag" v-if="tag">{{ tag }}</div>
-    <h3 class="project-title">{{ project.name }}</h3>
-    <p class="project-desc">{{ project.description }}</p>
+    <h3 class="project-title">{{ $t(project.name) }}</h3>
+    <p class="project-desc">{{ $t(project.description) }}</p>
     <div class="project-footer">
       <div class="project-chips">
         <span v-for="tech in techList" :key="tech" class="chip">
           {{ tech }}
         </span>
       </div>
-      <button @click="$emit('view', project)" class="project-link project-link-btn">View &rarr;</button>
+      <button @click="$emit('view', project)" class="project-link project-link-btn">{{ $t('projects.view_btn') }} &rarr;</button>
     </div>
   </div>
 </template>
