@@ -16,10 +16,10 @@ export const social = {
 
 export const techStack = [
     { category: "stack.categories.backend", items: [".NET", "ASP.NET Core", "RabbitMQ (Message Brokers)", "Node.js", "Express", "RESTful APIs", "Ubuntu Server", "Microservices Concepts", "Clean Architecture"] },
-    { category: "stack.categories.frontend", items: ["HTML/CSS/JavaScript", "TypeScript", "Kotlin", "Vue.js", "SvelteKit", "Tailwind CSS", "JavaFX"] },
-    { category: "stack.categories.database", items: ["SQL Server", "PostgreSQL", "pgvector", "MongoDB", "Redis", "Neo4j", "EF Core"] },
+    { category: "stack.categories.frontend", items: ["HTML/CSS/JavaScript", "TypeScript", "Kotlin", "Vue.js", "Nuxt.js", "SvelteKit", "Tailwind CSS", "JavaFX", "WPF", "Razor Pages"] },
+    { category: "stack.categories.database", items: ["SQL Server", "PostgreSQL", "pgvector", "MongoDB", "Neo4j", "EF Core"] },
     { category: "stack.categories.infrastructure", items: ["Docker", "Kubernetes", "Azure", "AWS", "CI/CD pipelines", "Git", "AI Agent Orchestration"] },
-    { category: "stack.categories.methodologies", items: ["Agile/Scrum", "ISO 25010 (Software Quality)", "Unit Testing", "Security Best Practices", "TDD"] },
+    { category: "stack.categories.methodologies", items: ["Agile/Scrum", "ICONIX", "ISO 25010 (Software Quality)", "Unit Testing", "Security Best Practices", "TDD"] },
     { category: "stack.categories.tools", items: ["Visual Studio", "VS Code", "JetBrains IDEs", "NetBeans", "Postman", "Selenium", "SSMS"] },
     { category: "stack.categories.networking", items: ["WebSockets (SignalR/Socket.io)", "TCP Protocol"] },
     { category: "stack.categories.exploring", items: ["Spring Boot", "Flask", "FastAPI", "DJango", "Svelte", "PHP", "Laravel", "WordPress", "WebRTC", "gRPC"] },
