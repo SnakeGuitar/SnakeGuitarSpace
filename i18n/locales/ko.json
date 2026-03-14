@@ -31,14 +31,14 @@
     "title_start": "나의",
     "title_emphasis": "기술 스택",
     "categories": {
-      "backend": "백엔드 및 분산 시스템",
-      "frontend": "프론트엔드",
-      "database": "데이터베이스 및 스토리지",
-      "infrastructure": "인프라 및 DevOps",
-      "methodologies": "방법론 및 품질",
-      "tools": "개발 도구",
-      "networking": "네트워크 및 실시간 통신",
-      "exploring": "현재 탐구 중인 기술"
+      "software_architecture": "소프트웨어 아키텍처",
+      "systems_engineering": "시스템 공학",
+      "client_architecture": "클라이언트 아키텍처",
+      "desktop_and_native": "데스크톱 & 네이티브",
+      "backend_frameworks": "백엔드 프레임워크",
+      "polyglot_persistence": "폴리글랏 퍼시스턴스",
+      "networking_and_communications": "네트워킹 & 통신",
+      "infrastructure_and_os": "인프라 & OS"
     }
   },
   "projects": {

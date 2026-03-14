@@ -15,14 +15,68 @@ export const social = {
 };
 
 export const techStack = [
-    { category: "stack.categories.backend", items: [".NET", "ASP.NET Core", "RabbitMQ (Message Brokers)", "Node.js", "Express", "RESTful APIs", "Ubuntu Server", "Microservices Concepts", "Clean Architecture"] },
-    { category: "stack.categories.frontend", items: ["HTML/CSS/JavaScript", "TypeScript", "Kotlin", "Vue.js", "Nuxt.js", "SvelteKit", "Tailwind CSS", "JavaFX", "WPF", "Razor Pages"] },
-    { category: "stack.categories.database", items: ["SQL Server", "PostgreSQL", "pgvector", "MongoDB", "Neo4j", "EF Core"] },
-    { category: "stack.categories.infrastructure", items: ["Docker", "Kubernetes", "Azure", "AWS", "CI/CD pipelines", "Git", "AI Agent Orchestration"] },
-    { category: "stack.categories.methodologies", items: ["Agile/Scrum", "ICONIX", "ISO 25010 (Software Quality)", "Unit Testing", "Security Best Practices", "TDD"] },
-    { category: "stack.categories.tools", items: ["Visual Studio", "VS Code", "JetBrains IDEs", "NetBeans", "Postman", "Selenium", "SSMS"] },
-    { category: "stack.categories.networking", items: ["WebSockets (SignalR/Socket.io)", "TCP Protocol"] },
-    { category: "stack.categories.exploring", items: ["Spring Boot", "Flask", "FastAPI", "DJango", "Svelte", "PHP", "Laravel", "WordPress", "WebRTC", "gRPC"] },
+    {
+        category: "stack.categories.software_architecture",
+        items: [
+            "Clean Architecture",
+            "Microservices Concepts",
+            "RESTful APIs",
+            "Component-Based Design",
+            "Event-Driven Architecture",
+            "MVC Pattern"
+        ]
+    },
+    {
+        category: "stack.categories.systems_engineering",
+        items: [
+            "SDLC",
+            "Requirements Elicitation",
+            "UML Modeling",
+            "Design Thinking",
+            "ICONIX",
+            "Agile/Scrum",
+            "ISO 25010 (Software Quality)"
+        ]
+    },
+    {
+        category: "stack.categories.client_architecture",
+        items: ["Vue.js / Nuxt.js", "SvelteKit", "TypeScript", "Tailwind CSS", "HTML/CSS/JS"]
+    },
+    {
+        category: "stack.categories.desktop_and_native",
+        items: ["WPF (.NET)", "JavaFX", "Kotlin", "Razor Pages"]
+    },
+    {
+        category: "stack.categories.backend_frameworks",
+        items: ["C# .NET / ASP.NET Core", "Node.js / Express", "FastAPI"]
+    },
+    {
+        category: "stack.categories.polyglot_persistence",
+        items: ["PostgreSQL + pgvector", "SQL Server", "MongoDB", "Neo4j", "EF Core", "EF 6"]
+    },
+    {
+        category: "stack.categories.networking_and_communications",
+        items: [
+            "Computer Networking",
+            "TCP/IP Protocols",
+            "WebSockets (SignalR/Socket.io)",
+            "RabbitMQ",
+            "WCF",
+            "gRPC / WebRTC"
+        ]
+    },
+    {
+        category: "stack.categories.infrastructure_and_os",
+        items: [
+            "Operating Systems",
+            "Compute Infrastructure",
+            "Docker",
+            "Kubernetes",
+            "AWS / Azure",
+            "Ubuntu Server",
+            "CI/CD Pipelines"
+        ]
+    }
 ];
 
 import memoryGame1 from '~/assets/project-images/memory-game/memory-game-board.png'

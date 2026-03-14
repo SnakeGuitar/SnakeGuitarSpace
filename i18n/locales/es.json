@@ -31,14 +31,14 @@
     "title_start": "Mi",
     "title_emphasis": "stack tecnológico",
     "categories": {
-      "backend": "Backend y Sistemas Distribuidos",
-      "frontend": "Frontend",
-      "database": "Bases de Datos y Almacenamiento",
-      "infrastructure": "Infraestructura & DevOps",
-      "methodologies": "Metodologías y Calidad",
-      "tools": "Herramientas de Desarrollo",
-      "networking": "Redes y Comunicación en Tiempo Real",
-      "exploring": "Actualmente Explorando"
+      "software_architecture": "Arquitectura de Software",
+      "systems_engineering": "Ingeniería de Sistemas",
+      "client_architecture": "Arquitectura de Cliente",
+      "desktop_and_native": "Escritorio & Nativo",
+      "backend_frameworks": "Frameworks de Backend",
+      "polyglot_persistence": "Persistencia Políglota",
+      "networking_and_communications": "Redes & Comunicaciones",
+      "infrastructure_and_os": "Infraestructura & SO"
     }
   },
   "projects": {

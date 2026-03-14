@@ -31,14 +31,14 @@
     "title_start": "我的",
     "title_emphasis": "技术栈",
     "categories": {
-      "backend": "后端与分布式系统",
-      "frontend": "前端",
-      "database": "数据库与存储",
-      "infrastructure": "基础设施与DevOps",
-      "methodologies": "方法论与质量保证",
-      "tools": "开发工具",
-      "networking": "网络与即时通讯",
-      "exploring": "正在探索"
+      "software_architecture": "软件架构",
+      "systems_engineering": "系统工程",
+      "client_architecture": "客户端架构",
+      "desktop_and_native": "桌面与原生开发",
+      "backend_frameworks": "后端框架",
+      "polyglot_persistence": "多语言持久化",
+      "networking_and_communications": "网络与通信",
+      "infrastructure_and_os": "基础设施与操作系统"
     }
   },
   "projects": {

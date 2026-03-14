@@ -31,14 +31,14 @@
     "title_start": "私の",
     "title_emphasis": "テクノロジースタック",
     "categories": {
-      "backend": "バックエンド・分散システム",
-      "frontend": "フロントエンド",
-      "database": "データベース・ストレージ",
-      "infrastructure": "インフラストラクチャ・DevOps",
-      "methodologies": "方法論・品質",
-      "tools": "開発ツール",
-      "networking": "ネットワーク・リアルタイム通信",
-      "exploring": "現在探求中"
+      "software_architecture": "ソフトウェアアーキテクチャ",
+      "systems_engineering": "システム工学",
+      "client_architecture": "クライアントアーキテクチャ",
+      "desktop_and_native": "デスクトップ & ネイティブ",
+      "backend_frameworks": "バックエンドフレームワーク",
+      "polyglot_persistence": "ポリグロット・パーシステンス",
+      "networking_and_communications": "ネットワーク & 通信",
+      "infrastructure_and_os": "インフラストラクチャ & OS"
     }
   },
   "projects": {

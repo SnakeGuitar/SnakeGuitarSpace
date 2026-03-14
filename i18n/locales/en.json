@@ -31,14 +31,14 @@
     "title_start": "My",
     "title_emphasis": "tech stack",
     "categories": {
-        "backend": "Backend & Distributed Systems",
-        "frontend": "Frontend",
-        "database": "Database & Storage",
-        "infrastructure": "Infrastructure & DevOps",
-        "methodologies": "Methodologies & Quality",
-        "tools": "Dev Tools",
-        "networking": "Networking & Real-Time Communication",
-        "exploring": "Currently Exploring"
+        "software_architecture": "Software Architecture",
+        "systems_engineering": "Systems Engineering",
+        "client_architecture": "Client Architecture",
+        "desktop_and_native": "Desktop & Native",
+        "backend_frameworks": "Backend Frameworks",
+        "polyglot_persistence": "Polyglot Persistence",
+        "networking_and_communications": "Networking & Communications",
+        "infrastructure_and_os": "Infrastructure & OS"
     }
   },
   "projects": {
