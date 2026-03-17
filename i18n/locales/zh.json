@@ -50,7 +50,7 @@
     "github_btn": "在GitHub上查看",
     "items": {
       "layla": {
-        "name": "Layla",
+        "name": "layla",
         "desc": "一个专为作家打造的综合社交网络平台。采用多语言持久化架构处理复杂关系及高性能查询，并整合了高级搜索功能与跨平台的访问能力。"
       },
       "memory_game": {

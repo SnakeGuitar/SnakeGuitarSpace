@@ -148,8 +148,9 @@ export const projects = [
 import dianaImg from '~/assets/drawings/diana.jpg'
 import joaquinImg from '~/assets/drawings/joaquin.jpg'
 import katyaImg from '~/assets/drawings/katya.jpg'
-import laylaImg from '~/assets/drawings/Layla.png'
-import linImg from '~/assets/drawings/lin.png'
+import laylaImg from '~/assets/drawings/layla.png'
+import lauraImg from '~/assets/drawings/laura2.jpg'
+import linImg from '~/assets/drawings/lin1.png'
 import akariImg from '~/assets/drawings/akari.png'
 import emilyImg from '~/assets/drawings/emily.png'
 import nunImg from '~/assets/drawings/nun.jpg'
@@ -162,27 +163,33 @@ export const drawings = [
         image: dianaImg
     },
     {
-        name: "Layla",
+        name: "layla",
         description: "art.medium.digital",
-        year: "2025",
+        year: "2023",
         image: laylaImg
     },
     {
+        name: "Laura",
+        description: "art.medium.traditional",
+        year: "2025",
+        image: lauraImg
+    },
+    {
         name: "Akari",
-        description: "art.medium.digital",
+        description: "art.medium.traditional",
         year: "2025",
         image: akariImg
     },
     {
         name: "Emily",
-        description: "art.medium.digital",
+        description: "art.medium.traditional",
         year: "2025",
         image: emilyImg
     },
     {
         name: "Lin",
-        description: "art.medium.traditional",
-        year: "2023",
+        description: "art.medium.digital",
+        year: "2024",
         image: linImg
     },
     {

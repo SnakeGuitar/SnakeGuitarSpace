@@ -50,7 +50,7 @@
     "github_btn": "View GitHub",
     "items": {
         "layla": {
-            "name": "Layla",
+            "name": "layla",
             "desc": "A comprehensive social network platform dedicated to writers. Architected with polyglot persistence to handle complex relationships and high-performance querying, integrating advanced search capabilities and cross-platform accessibility."
         },
         "memory_game": {
