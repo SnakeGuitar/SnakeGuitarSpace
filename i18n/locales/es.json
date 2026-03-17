@@ -50,7 +50,7 @@
     "github_btn": "Ver en GitHub",
     "items": {
       "layla": {
-        "name": "layla",
+        "name": "Layla",
         "desc": "Una plataforma de red social integral dedicada a escritores. Diseñada con arquitectura de persistencia políglota para manejar relaciones complejas y consultas de alto rendimiento, integrando capacidades avanzadas de búsqueda y accesibilidad multiplataforma."
       },
       "memory_game": {

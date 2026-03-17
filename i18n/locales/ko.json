@@ -50,7 +50,7 @@
     "github_btn": "GitHub에서 보기",
     "items": {
       "layla": {
-        "name": "layla",
+        "name": "Layla",
         "desc": "작가를 위한 종합적인 소셜 네트워크 플랫폼. 복잡한 관계와 고성능 쿼리를 처리할 수 있도록 폴리글랏 퍼시스턴스 아키텍처로 설계되었으며, 고급 검색 기능과 크로스 플랫폼 접근성을 통합했습니다."
       },
       "memory_game": {
@@ -74,8 +74,8 @@
     "intro": "개발과 병행하는 실습이지만, 똑같이 진지합니다. 인내와 사랑으로 작품을 만듭니다. 가끔 디지털로도 그립니다 :3",
     "hover_medium": "전통 드로잉",
     "medium": {
-        "traditional": "전통 드로잉",
-        "digital": "디지털 드로잉"
+      "traditional": "전통 드로잉",
+      "digital": "디지털 드로잉"
     }
   },
   "contact": {

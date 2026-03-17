@@ -44,7 +44,7 @@ export const techStack = [
     },
     {
         category: "stack.categories.desktop_and_native",
-        items: ["WPF (.NET)", "JavaFX", "Kotlin", "Razor Pages"]
+        items: ["WPF (.NET)", "JavaFX", "Kotlin", "Razor Pages", "Capacitor", "Tauri"]
     },
     {
         category: "stack.categories.backend_frameworks",
@@ -102,7 +102,7 @@ export const projects = [
         name: "projects.items.layla.name",
         description: "projects.items.layla.desc",
         layla1TechStack: ["ASP.NET Core", "SQL Server", "MongoDB", "Neo4j", "EF Core", "WPF", "Razor Pages", "Kotlin"],
-        layla2TechStack: ["ASP.NET Core", "PostgreSQL + pgvector", "MongoDB", "Neo4j", "EF Core", "SvelteKit", "Tauri", "Capacitor", "Ionic"],
+        layla2TechStack: ["ASP.NET Core", "PostgreSQL + pgvector", "MongoDB", "Neo4j", "EF Core", "SvelteKit", "Tauri", "Capacitor"],
         link: "https://github.com/SnakeGuitar/Layla"
     },
     {

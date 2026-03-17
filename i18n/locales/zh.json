@@ -50,7 +50,7 @@
     "github_btn": "在GitHub上查看",
     "items": {
       "layla": {
-        "name": "layla",
+        "name": "Layla",
         "desc": "一个专为作家打造的综合社交网络平台。采用多语言持久化架构处理复杂关系及高性能查询，并整合了高级搜索功能与跨平台的访问能力。"
       },
       "memory_game": {
@@ -74,8 +74,8 @@
     "intro": "这是一项与软件开发并行的实践，但也同样严谨。我用耐心和爱心打造这些作品。有时我也进行数字绘画 :3",
     "hover_medium": "传统",
     "medium": {
-        "traditional": "传统绘画",
-        "digital": "数字绘画"
+      "traditional": "传统绘画",
+      "digital": "数字绘画"
     }
   },
   "contact": {

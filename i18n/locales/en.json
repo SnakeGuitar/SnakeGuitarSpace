@@ -31,14 +31,14 @@
     "title_start": "My",
     "title_emphasis": "tech stack",
     "categories": {
-        "software_architecture": "Software Architecture",
-        "systems_engineering": "Systems Engineering",
-        "client_architecture": "Client Architecture",
-        "desktop_and_native": "Desktop & Native",
-        "backend_frameworks": "Backend Frameworks",
-        "polyglot_persistence": "Polyglot Persistence",
-        "networking_and_communications": "Networking & Communications",
-        "infrastructure_and_os": "Infrastructure & OS"
+      "software_architecture": "Software Architecture",
+      "systems_engineering": "Systems Engineering",
+      "client_architecture": "Client Architecture",
+      "desktop_and_native": "Desktop & Native",
+      "backend_frameworks": "Backend Frameworks",
+      "polyglot_persistence": "Polyglot Persistence",
+      "networking_and_communications": "Networking & Communications",
+      "infrastructure_and_os": "Infrastructure & OS"
     }
   },
   "projects": {
@@ -49,22 +49,22 @@
     "tech_stack": "Tech Stack",
     "github_btn": "View GitHub",
     "items": {
-        "layla": {
-            "name": "layla",
-            "desc": "A comprehensive social network platform dedicated to writers. Architected with polyglot persistence to handle complex relationships and high-performance querying, integrating advanced search capabilities and cross-platform accessibility."
-        },
-        "memory_game": {
-            "name": "Memory Game",
-            "desc": "A full-stack, distributed memory game featuring a real-time multiplayer architecture, global chat system, and concurrent state management."
-        },
-        "ppms": {
-            "name": "Professional Practices Management System",
-            "desc": "An enterprise-level desktop application designed to streamline and manage university professional practices, focusing on robust data validation and intuitive user experience."
-        },
-        "pinterest": {
-            "name": "Pinterest Board Downloader",
-            "desc": "An automated web scraping tool built to efficiently extract and download image datasets from Pinterest, utilizing headless browser automation."
-        }
+      "layla": {
+        "name": "Layla",
+        "desc": "A comprehensive social network platform dedicated to writers. Architected with polyglot persistence to handle complex relationships and high-performance querying, integrating advanced search capabilities and cross-platform accessibility."
+      },
+      "memory_game": {
+        "name": "Memory Game",
+        "desc": "A full-stack, distributed memory game featuring a real-time multiplayer architecture, global chat system, and concurrent state management."
+      },
+      "ppms": {
+        "name": "Professional Practices Management System",
+        "desc": "An enterprise-level desktop application designed to streamline and manage university professional practices, focusing on robust data validation and intuitive user experience."
+      },
+      "pinterest": {
+        "name": "Pinterest Board Downloader",
+        "desc": "An automated web scraping tool built to efficiently extract and download image datasets from Pinterest, utilizing headless browser automation."
+      }
     }
   },
   "art": {
@@ -74,8 +74,8 @@
     "intro": "A parallel practice to development, but equally serious. I craft my works with patience and love. Sometimes I draw in digital too :3",
     "hover_medium": "Traditional",
     "medium": {
-        "traditional": "Traditional",
-        "digital": "Digital"
+      "traditional": "Traditional",
+      "digital": "Digital"
     }
   },
   "contact": {
