@@ -96,6 +96,8 @@ import pp6 from '~/assets/project-images/professional-practices/professional-pra
 
 import pinterest1 from '~/assets/project-images/pinterest-scrapper/pinterest-scrapper.png'
 
+import winxi1 from '~/assets/project-images/winxi/winxi-landing-page.png'
+
 
 export const projects = [
     {
@@ -141,6 +143,15 @@ export const projects = [
         link: "https://github.com/SnakeGuitar/PinterestBoardDownloader.git",
         images: [
             { src: pinterest1, title: "App Interface" }
+        ]
+    },
+    {
+        name: "projects.items.winxi.name",
+        description: "projects.items.winxi.desc",
+        techStack: ["FastAPI", "SQLAlchemy", "React", "Vite", "PostgreSQL"],
+        link: "https://github.com/SnakeGuitar/Winxi",
+        images: [
+            { src: winxi1, title: "Landing page" }
         ]
     },
 ];

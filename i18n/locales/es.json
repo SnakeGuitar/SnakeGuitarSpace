@@ -64,6 +64,10 @@
       "pinterest": {
         "name": "Descargador de Tableros de Pinterest",
         "desc": "Una herramienta automatizada de web scraping construida para extraer y descargar eficientemente conjuntos de datos de imágenes de Pinterest, utilizando automatización de navegadores headless."
+      },
+      "winxi": {
+        "name": "Winxi",
+        "desc": "Una red social para crear y compartir moodboards personalizados. Construida con FastAPI, React y PostgreSQL."
       }
     }
   },

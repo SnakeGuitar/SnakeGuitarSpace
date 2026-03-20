@@ -64,6 +64,10 @@
       "pinterest": {
         "name": "Pinterest 图片墙下载器",
         "desc": "一个用于高效提取与下载Pinterest图片数据集的自动化网络爬虫工具，采用无头浏览器自动化技术开发。"
+      },
+      "winxi": {
+        "name": "Winxi",
+        "desc": "用于创建和分享个性化情绪板的社交网络。采用 FastAPI、React 和 PostgreSQL 构建。"
       }
     }
   },

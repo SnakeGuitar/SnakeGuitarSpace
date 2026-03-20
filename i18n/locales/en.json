@@ -64,6 +64,10 @@
       "pinterest": {
         "name": "Pinterest Board Downloader",
         "desc": "An automated web scraping tool built to efficiently extract and download image datasets from Pinterest, utilizing headless browser automation."
+      },
+      "winxi": {
+        "name": "Winxi",
+        "desc": "Social network for creating and sharing personalized moodboards. Built with FastAPI, React and PostgreSQL."
       }
     }
   },

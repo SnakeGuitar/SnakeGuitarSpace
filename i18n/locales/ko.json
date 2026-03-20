@@ -64,6 +64,10 @@
       "pinterest": {
         "name": "Pinterest 사진 다운로더",
         "desc": "헤드리스 브라우저 자동화를 활용하여 Pinterest에서 이미지 데이터 세트를 효율적으로 추출하고 다운로드하도록 구축된 자동 웹 스크래핑 도구입니다."
+      },
+      "winxi": {
+        "name": "Winxi",
+        "desc": "개인 맞춤형 무드보드를 만들고 공유할 수 있는 소셜 네트워크입니다. FastAPI, React 및 PostgreSQL로 구축되었습니다."
       }
     }
   },
