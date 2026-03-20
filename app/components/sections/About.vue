@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <div id="about" class="section-inner">
+  <section id="about">
+    <div class="section-inner">
       <UiSectionTitle :label="$t('about.title_label')" :titleStart="$t('about.title_start')" :titleEmphasis="$t('about.title_emphasis')" />
 
       <div class="about-grid">

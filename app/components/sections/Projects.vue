@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <div id="projects" class="section-inner">
+  <section id="projects">
+    <div class="section-inner">
       <UiSectionTitle :label="$t('projects.title_label')" :titleStart="$t('projects.title_start')" :titleEmphasis="$t('projects.title_emphasis')" />
 
       <div class="projects-grid">
@@ -23,7 +23,7 @@ import { projects } from '~/utils/portfolio'
 
 const projectList = projects;
 const isModalOpen = ref(false);
-const selectedProject = ref(null);
+const selectedProject = ref<any>(undefined);
 
 const openModal = (project: any) => {
   selectedProject.value = project;

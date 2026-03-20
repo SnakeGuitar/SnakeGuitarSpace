@@ -1,8 +1,8 @@
 <template>
-  <button v-if="as === 'button'" :class="buttonClass">
+  <button v-if="as === 'button'" :class="buttonClass" v-bind="$attrs">
     <slot />
   </button>
-  <a v-else :href="href" :class="buttonClass" :target="target">
+  <a v-else :href="href" :class="buttonClass" :target="target" v-bind="$attrs">
     <slot />
   </a>
 </template>

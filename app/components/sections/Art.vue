@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <div id="art" class="section-inner">
+  <section id="art">
+    <div class="section-inner">
       <UiSectionTitle :label="$t('art.title_label')" :titleStart="$t('art.title_start')" :titleEmphasis="$t('art.title_emphasis')" />
 
       <p class="art-intro">

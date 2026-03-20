@@ -20,8 +20,8 @@
       </p>
 
       <div class="hero-ctas">
-        <UiButton as="a" href="#projects">{{ $t('hero.btn_work') }}</UiButton>
-        <UiButton as="a" href="#art" variant="secondary">{{ $t('hero.btn_contact') }}</UiButton>
+        <UiButton as="a" href="#projects" @click.prevent="scrollToSection('#projects')">{{ $t('hero.btn_work') }}</UiButton>
+        <UiButton as="a" href="#art" variant="secondary" @click.prevent="scrollToSection('#art')">{{ $t('hero.btn_contact') }}</UiButton>
       </div>
     </div>
 
@@ -31,5 +31,8 @@
 
 <script setup lang="ts">
 import { personalInfo } from '~/utils/portfolio'
+import { useSmoothScroll } from '~/composables/useSmoothScroll';
+
 const info = personalInfo;
+const { scrollToSection } = useSmoothScroll();
 </script>

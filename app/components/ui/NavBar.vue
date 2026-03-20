@@ -1,13 +1,13 @@
 <template>
   <nav>
-    <a href="#hero" class="nav-logo">Snake<span>Guitar</span></a>
+    <a href="#hero" class="nav-logo" @click.prevent="scrollToSection('#hero')">Snake<span>Guitar</span></a>
     <div class="nav-actions">
       <ul class="nav-links">
-        <li><a href="#about">{{ $t('nav.about') }}</a></li>
-        <li><a href="#stack">{{ $t('nav.stack') }}</a></li>
-        <li><a href="#projects">{{ $t('nav.projects') }}</a></li>
-        <li><a href="#art">{{ $t('nav.art') }}</a></li>
-        <li><a href="#contact">{{ $t('nav.contact') }}</a></li>
+        <li><a href="#about" @click.prevent="scrollToSection('#about')">{{ $t('nav.about') }}</a></li>
+        <li><a href="#stack" @click.prevent="scrollToSection('#stack')">{{ $t('nav.stack') }}</a></li>
+        <li><a href="#projects" @click.prevent="scrollToSection('#projects')">{{ $t('nav.projects') }}</a></li>
+        <li><a href="#art" @click.prevent="scrollToSection('#art')">{{ $t('nav.art') }}</a></li>
+        <li><a href="#contact" @click.prevent="scrollToSection('#contact')">{{ $t('nav.contact') }}</a></li>
       </ul>
       <div class="header-controls">
         <UiLanguageSwitcher />
@@ -16,6 +16,11 @@
     </div>
   </nav>
 </template>
+
+<script setup lang="ts">
+import { useSmoothScroll } from '~/composables/useSmoothScroll';
+const { scrollToSection } = useSmoothScroll();
+</script>
 
 <style scoped>
 nav {
