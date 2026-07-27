@@ -68,6 +68,10 @@
       "winxi": {
         "name": "Winxi",
         "desc": "用于创建和分享个性化情绪板的社交网络。采用 FastAPI、React 和 PostgreSQL 构建。"
+      },
+      "katya_katya": {
+        "name": "Katya Katya",
+        "desc": "以原创角色为主题的记忆匹配游戏，未来计划转为恋爱模拟游戏。支持基于 SignalR 的实时多人游戏大厅、单人模式与自定义主题。"
       }
     }
   },

@@ -98,6 +98,23 @@ import pinterest1 from '~/assets/project-images/pinterest-scrapper/pinterest-scr
 
 import winxi1 from '~/assets/project-images/winxi/winxi-landing-page.png'
 
+import katyaGallerySketch from '~/assets/project-images/katya-katya/katya-gallery-sketch.png'
+import katyaGallery from '~/assets/project-images/katya-katya/katya-gallery.png'
+import katyaFriends from '~/assets/project-images/katya-katya/katya-katya-friends.png'
+import katyaLobby1 from '~/assets/project-images/katya-katya/katya-lobby-1.png'
+import katyaLobby from '~/assets/project-images/katya-katya/katya-lobby.png'
+import katyaLocalization from '~/assets/project-images/katya-katya/katya-localization.png'
+import katyaLogin from '~/assets/project-images/katya-katya/katya-login.png'
+import katyaMainWindow1 from '~/assets/project-images/katya-katya/katya-main-window-1.png'
+import katyaMainWindow from '~/assets/project-images/katya-katya/katya-main-window.png'
+import katyaMultiplayer from '~/assets/project-images/katya-katya/katya-multiplayer.png'
+import katyaProfile1 from '~/assets/project-images/katya-katya/katya-profile-1.png'
+import katyaProfile2 from '~/assets/project-images/katya-katya/katya-profile-2.png'
+import katyaSettings from '~/assets/project-images/katya-katya/katya-settings.png'
+import katyaSingleplayer1 from '~/assets/project-images/katya-katya/katya-singleplayer-1.png'
+import katyaSingleplayer2 from '~/assets/project-images/katya-katya/katya-singleplayer-2.png'
+import katyaThemes from '~/assets/project-images/katya-katya/katya-themes.png'
+
 
 export const projects = [
     {
@@ -105,13 +122,13 @@ export const projects = [
         description: "projects.items.layla.desc",
         layla1TechStack: ["ASP.NET Core", "SQL Server", "MongoDB", "Neo4j", "EF Core", "WPF", "Razor Pages", "Kotlin"],
         layla2TechStack: ["ASP.NET Core", "PostgreSQL + pgvector", "MongoDB", "Neo4j", "EF Core", "SvelteKit", "Tauri", "Capacitor"],
-        link: "https://github.com/SnakeGuitar/Layla"
+        link: "https://github.com/SnakeGuitar/layla-writing-platform.git"
     },
     {
         name: "projects.items.memory_game.name",
         description: "projects.items.memory_game.desc",
         techStack: [".NET Framework", "WPF", "WCF", "EF 4.7.2", "SQL Server"],
-        link: "https://github.com/SnakeGuitar/MemoryGame",
+        link: "https://github.com/SnakeGuitar/memory-game-legacy.git",
         images: [
             { src: memoryGame1, title: "Game Board" },
             { src: memoryGame2, title: "Card Collection" },
@@ -126,7 +143,7 @@ export const projects = [
         name: "projects.items.ppms.name",
         description: "projects.items.ppms.desc",
         techStack: ["JavaFX", "CSS", "MySQL", "MVC Pattern"],
-        link: "https://github.com/SnakeGuitar/ProfessionalPractices",
+        link: "https://github.com/SnakeGuitar/practicas-profesionales-ramon.git",
         images: [
             { src: pp1, title: "Document Handling" },
             { src: pp2, title: "Forms" },
@@ -140,7 +157,7 @@ export const projects = [
         name: "projects.items.pinterest.name",
         description: "projects.items.pinterest.desc",
         techStack: ["C#", "WPF", "Selenium"],
-        link: "https://github.com/SnakeGuitar/PinterestBoardDownloader.git",
+        link: "https://github.com/SnakeGuitar/dotnet-pinterest-scraper.git",
         images: [
             { src: pinterest1, title: "App Interface" }
         ]
@@ -149,9 +166,33 @@ export const projects = [
         name: "projects.items.winxi.name",
         description: "projects.items.winxi.desc",
         techStack: ["FastAPI", "SQLAlchemy", "React", "Vite", "PostgreSQL"],
-        link: "https://github.com/SnakeGuitar/Winxi",
+        link: "https://github.com/SnakeGuitar/winxi-moodboard-creator.git",
         images: [
             { src: winxi1, title: "Landing page" }
+        ]
+    },
+    {
+        name: "projects.items.katya_katya.name",
+        description: "projects.items.katya_katya.desc",
+        techStack: ["ASP.NET Core", "Avalonia UI", "SignalR", "PostgreSQL", "EF Core", ".NET 10"],
+        link: "https://github.com/SnakeGuitar/katya-katya.git",
+        images: [
+            { src: katyaLogin, title: "Login Screen" },
+            { src: katyaMainWindow, title: "Main Menu" },
+            { src: katyaMainWindow1, title: "Main Menu (Alt)" },
+            { src: katyaSingleplayer1, title: "Singleplayer Settings" },
+            { src: katyaSingleplayer2, title: "Gameplay Board" },
+            { src: katyaMultiplayer, title: "Multiplayer Matches" },
+            { src: katyaLobby, title: "Game Lobby" },
+            { src: katyaLobby1, title: "Game Lobby (Alt)" },
+            { src: katyaGallery, title: "Gallery Interface" },
+            { src: katyaGallerySketch, title: "Gallery Sketch Mode" },
+            { src: katyaFriends, title: "Social and Friends List" },
+            { src: katyaProfile1, title: "User Profile Overview" },
+            { src: katyaProfile2, title: "User Match History" },
+            { src: katyaSettings, title: "Configuration Panel" },
+            { src: katyaThemes, title: "Custom Theme Selection" },
+            { src: katyaLocalization, title: "Language Selection" }
         ]
     },
 ];

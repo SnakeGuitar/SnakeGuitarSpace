@@ -68,6 +68,10 @@
       "winxi": {
         "name": "Winxi",
         "desc": "Social network for creating and sharing personalized moodboards. Built with FastAPI, React and PostgreSQL."
+      },
+      "katya_katya": {
+        "name": "Katya Katya",
+        "desc": "A memory game themed around an original character, with plans to convert it into a dating simulator. Features real-time multiplayer lobbies, singleplayer matchmaking, and custom themes."
       }
     }
   },
