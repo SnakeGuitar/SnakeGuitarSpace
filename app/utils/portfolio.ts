@@ -206,6 +206,7 @@ import linImg from '~/assets/drawings/lin1.png'
 import akariImg from '~/assets/drawings/akari.png'
 import emilyImg from '~/assets/drawings/emily.png'
 import nunImg from '~/assets/drawings/nun.jpg'
+import diana1 from '~/assets/drawings/diana-1.jpg'
 
 export const drawings = [
     {
@@ -261,6 +262,12 @@ export const drawings = [
         description: "art.medium.traditional",
         year: "2022",
         image: nunImg
+    },
+    {
+        name: "Diana in cocktail dress",
+        description: "art.medium.traditional",
+        year: "2026",
+        image: diana1
     }
 ];
 
